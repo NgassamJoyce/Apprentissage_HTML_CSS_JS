@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alarme</title>
+    <link rel="stylesheet" href="/alarme.css">
+ 
+</head>
+<body>
+
+    <div class="date_time">
+            <span id="time" class="time"></span>
+            <span id="date" class="date"></span>
+    </div>
+
+    <section class="sect1">
+        
+        <div id="myDiv" class="new-alarm">
+            <h1 class="titre">Nouvelle Alarme</h1>
+            
+            <div class="motif">
+                <input type="time"  id="alarm-time">
+                <input type="text" id="alarm-text" placeholder="Etiquette ...">
+                
+            </div>
+
+            <div class="days">
+                <button  class="jour">Dim</button>
+                <button  class="jour">Lun</button>
+                <button  class="jour">Mar</button>
+                <button  class="jour">Mer</button>
+                <button  class="jour">Jeu</button>
+                <button  class="jour">ven</button> 
+                <button  class="jour">sam</button>
+                                
+            </div>
+          
+            <div class="ajout">
+                <button id="delete-alarm" class="add-alarm">Supprimer</button>
+                <button id="save-alarm" class="add-alarm">Enregistrer</button>
+                <button id="cancel-alarm" class="add-alarm">Annuler</button>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="sect2">
+
+        <div class="alarm-container">
+            
+           <div class="alarm-list" id="alarm-list">
+                <p>vide</p>
+            </div>
+        </div>
+
+        <button id="toggle-btn">
+            <img src="/image/add_circle_24dp_000000_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+        </button>
+
+    </section>
+
+
+    <script src="/alarme.js"></script>
+</body>
+</html>
