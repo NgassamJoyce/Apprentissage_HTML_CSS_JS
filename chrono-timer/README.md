@@ -22,9 +22,9 @@ Une application React moderne qui combine un chronometre et un minuteur qui perm
 - Installer Node.js
 -Installer pnpm:
  npm install -g pnpm
-- Cloner le depot:
-   git clone https://github.com/NgassamJoyce/Apprentissage_HTML_CSS_JS.git
-   cd Apprentissage_HTML_CSS_JS/chrono-timer
+- Cloner le depot: <br>
+  
+   git clone https://github.com/NgassamJoyce/Apprentissage_HTML_CSS_JS/chrono-timer
 - Lancer l'application:
    pnpm start
 - Ouvrir dans le navigateur:
