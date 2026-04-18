@@ -25,9 +25,9 @@ Une application React moderne qui combine un chronometre et un minuteur qui perm
 - Cloner le depot: <br>
   
    git clone https://github.com/NgassamJoyce/Apprentissage_HTML_CSS_JS/chrono-timer
-- Lancer l'application:
+- Lancer l'application: <br>
    pnpm start
-- Ouvrir dans le navigateur:
+- Ouvrir dans le navigateur:<br>
    http://localhost:5173/  
 
 ### Utilisation
