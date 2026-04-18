@@ -23,11 +23,11 @@ Une application React moderne qui combine un chronometre et un minuteur qui perm
 -Installer pnpm:
  npm install -g pnpm
 - Cloner le depot:
- git clone https://github.com/NgassamJoyce/Apprentissage_HTML_CSS_JS/edit/master/chrono-timer
+   git clone https://github.com/NgassamJoyce/Apprentissage_HTML_CSS_JS/edit/master/chrono-timer
 - Lancer l'application:
-pnpm start
+   pnpm start
 - Ouvrir dans le navigateur:
- http://localhost:5173/  
+   http://localhost:5173/  
 
 ### Utilisation
   *** Mode Chronometre**:
@@ -44,7 +44,10 @@ pnpm start
   5.  Un message s`affiche quand le temps est écoulé.
 
 ### Ameliorations possibles
-. Ajouter un son quand le minuteur atteint 0
+. Ajouter un son quand le minuteur atteint 0 
+
 . Sauvegarder la derniere duree choisie
+
 . Ajouter des themes (clair/sombre)
+
 . Ajouter des raccourcis clavier  
